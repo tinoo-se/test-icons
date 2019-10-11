@@ -1,0 +1,13 @@
+.fi-three-horizontal-lines {
+  position: relative;
+  font-size: 12px;
+  color: #ff0707;
+  font-weight: lighter;
+}
+.fi fi-three-horizontal-lines:before {
+  content: "\e919";
+  font-family: "uxwing-iconsfont";
+  left: 0px;
+  position: absolute;
+  top: 0;
+}
